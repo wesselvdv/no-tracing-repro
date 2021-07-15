@@ -9,12 +9,7 @@ module.exports = {
                 exclude: /node_modules/,
                 options: {
                     compiler: 'ttypescript',
-                },
-            },
-            {
-                test: /\.m?js/,
-                resolve: {
-                    fullySpecified: false,
+                    configFile: 'tsconfig.webpack.json'
                 },
             },
         ],
