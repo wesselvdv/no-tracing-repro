@@ -1,4 +1,4 @@
-import '@effect-ts/system/Tracing/Enable';
+import '@effect-ts/core/Tracing/Enable';
 import { pipe } from "@effect-ts/core/Function";
 import * as R from "@effect-ts/node/Runtime";
 import * as T from "@effect-ts/core/Effect";
