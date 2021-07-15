@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "build:tsc": "ttsc -p tsconfig.build.json"
+    "build:tsc": "ttsc -p tsconfig.build.json",
+    "execute": "yarn run build && node dist/index"
   },
   "author": "Wessel van der Veen",
   "license": "ISC",
